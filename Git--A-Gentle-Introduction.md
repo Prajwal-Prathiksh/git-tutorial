@@ -91,8 +91,8 @@ Welcome to the world of **Continuous Integration and Continuous Deployment!**
 ---
 # <!--fit--> How do I get started?
 
-- RTFM!
-  - *Read the "friendly" manual of course :wink: [Git Documentation](https://git-scm.com/doc)*
+> RTFM!
+>> *Read the "friendly" manual of course :wink: [Git Documentation](https://git-scm.com/doc)*
 
 ---
 # Aha! Now that you're interested$...$
