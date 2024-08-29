@@ -1,8 +1,7 @@
 ---
 marp: true
-theme: gaia
 class: invert
-# paginate: true
+paginate: true
 math: mathjax
 ---
 
@@ -10,7 +9,7 @@ math: mathjax
 
 # **The Heck Is That? :thinking:**
 
-*Expect only the most midwitted answers :)*
+> <span style="color:#80d9f3">  *Expect only the most midwitted answers :)* </span>
 
 ---
 
@@ -29,13 +28,15 @@ math: mathjax
 ![bg left:40% 80%](https://www.nobledesktop.com/image/gitresources/git-branches-merge.png)
 
 * *Git is a <span style="color:yellow">distributed</span> <span style="color:orange">version control system</span>*
-* <span style="color:yellow">Distributed</span> $\Rightarrow$ Everyone has a full copy of the repo
-* <span style="color:orange">Version control system</span> $\Rightarrow$ Keeps track of changes in code
+> <span style="color:yellow">Distributed</span> $\Rightarrow$ Everyone has a full copy of the repo
+> <span style="color:orange">Version control system</span> $\Rightarrow$ Keeps track of changes in code
 
 ---
 
-# Why should I care?
-*(Part 1: I wanna go back in time)*
+# <!--fit--> Why should I care?
+
+---
+# (Part 1: I wanna go back in time)
 
 * Damn I think I broke something by adding some code...
   * **No problem!** Just `revert` back to the last working version
@@ -46,11 +47,10 @@ math: mathjax
 
 ---
 
-# Why should I care?
-*(Part 2: I wanna try something new)*
+# (Part 2: I wanna try something new)
 
 * I want to experiment with some new features but don't want to mess up the main code...
-  * **No problem!** Just create a new branch and work on that
+  * **No problem!** Just create a new `branch` and work on that
 
 * `git branch feat-new` $\Rightarrow$ Create a new branch called `feat-new`
 * `git checkout feat-new` $\Rightarrow$ Switch to the `feat-new` branch
@@ -59,10 +59,47 @@ math: mathjax
 
 
 ---
+# (Part 3, 4, 5 ... and so on)
 
-# Why should I care?
-*(Part 3: I wanna make my own changes)*
+* I see this cool project, but I want to some changes of my own...
+  * Just `fork` the repo and make your changes
+* I want to let my friends work on my project...
+  * Just `clone` the repo and work on it
+* I want to sync my project with the latest changes...
+  * Just `pull` and `push` your changes to the repo *...and so on*
 
-* Hey I see this cool project on GitHub, but I need to make some changes for my own use...
-  * **No problem!** Just fork the repo and make your changes
-  
+> *The possibilities, despite being endless, are quite simply, beyond the scope of this simple tutorial 😞*
+
+
+---
+
+# <!--fit--> How do I get started?
+
+> RTFM!
+>> *Read the "friendly" manual of course :wink: [Git Documentation](https://git-scm.com/doc)*
+
+---
+# Aha! Now that you're interested...
+
+- **Step 1:** Install Git, duh! ([Download Git](https://git-scm.com/downloads))
+- **Step 2:** Set up your Git with your credentials on `git bash` and run the following commands:
+
+```shell
+git config --global user.name "Your Name"
+git config --global user.email "your.name@email.com
+```
+> **Note:** The above step must mandatorily be done from the terminal 😱, but fortunately only once!
+
+- **Step 3:** Create a new repository on GitHub
+- **Step 4:** Clone the repository to your local machine
+
+```shell
+git clone https://your-repo-url
+```
+
+---
+
+# <!--fit--> "I ain't using no terminal!"
+
+> **No problem!** There are plenty of GUI clients or IDEs that support Git, VSCode being one of them!
+>> But the terminal is where the real magic happens! :sparkles:
