@@ -30,7 +30,7 @@ style: |
 # Okay here's the real answer
 ![bg left:40% 80%](https://www.nobledesktop.com/image/gitresources/git-branches-merge.png)
 
-* *Git is a <span style="color:yellow">distributed</span> <span style="color:orange">version control system</span>*
+- *Git is a <span style="color:yellow">distributed</span> <span style="color:orange">version control system</span>*
 > <span style="color:yellow">Distributed</span> $\Rightarrow$ Everyone has a full copy of the repo
 > <span style="color:orange">Version control system</span> $\Rightarrow$ Keeps track of changes in code
 
@@ -91,8 +91,8 @@ Welcome to the world of **Continuous Integration and Continuous Deployment!**
 ---
 # <!--fit--> How do I get started?
 
-> RTFM!
->> *Read the "friendly" manual of course :wink: [Git Documentation](https://git-scm.com/doc)*
+- RTFM!
+  - *Read the "friendly" manual of course :wink: [Git Documentation](https://git-scm.com/doc)*
 
 ---
 # Aha! Now that you're interested$...$
