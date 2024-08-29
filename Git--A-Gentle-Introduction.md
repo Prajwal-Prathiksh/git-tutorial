@@ -3,6 +3,7 @@ marp: true
 class: invert
 paginate: true
 math: mathjax
+footer: "Copyright (c) 2024 K T Prajwal Prathiksh"
 style: |
   .columns {
     display: grid;
@@ -11,28 +12,31 @@ style: |
   }
 ---
 
+# <!--fit--> **The Heck Is That? :thinking:**
 ![bg left:40% 80%](https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Git-logo-white.svg/1024px-Git-logo-white.svg.png)
 
-# **The Heck Is That? :thinking:**
-
 > <span style="color:#80d9f3">  *Expect only the most midwitted answers :)* </span>
-
+> 
 ---
 # It's a version control system!
-![bg right:40% 80%](https://img.devrant.com/devrant/rant/r_2329045_c5v7p.jpg)
+![bg right:40% 80%](https://imgs.xkcd.com/comics/git.png)
 
 * **The heck is that now!**
 * <span style="color:#80d9f3">Put simply: *It's a time-machine for your code!*</span>
 * **Okay now give me a real answer!**
 * <span style="color:#80d9f3">Hmmmmmm$........$</span>
 
+*Image credit: [XKCD](https://xkcd.com/1597/)*
+
 ---
 # Okay here's the real answer
-![bg left:40% 80%](https://www.nobledesktop.com/image/gitresources/git-branches-merge.png)
+![bg right:40% 80%](https://www.nobledesktop.com/image/gitresources/git-branches-merge.png)
 
 - *Git is a <span style="color:yellow">distributed</span> <span style="color:orange">version control system</span>*
 > <span style="color:yellow">Distributed</span> $\Rightarrow$ Everyone has a full copy of the repo
 > <span style="color:orange">Version control system</span> $\Rightarrow$ Keeps track of changes in code
+
+*Image credit: [Noble Desktop](https://www.nobledesktop.com/image/gitresources/git-branches-merge.png)*
 
 ---
 # <!--fit--> Why should I care?
@@ -156,3 +160,6 @@ git clone https://your-repo-url
 
 ---
 # <!--fit--> And that's it!
+
+> Phew! That was a lot of information, wasn't it?
+>> If you want to learn more, but in a digestible format, check out the [Git Handbook](https://guides.github.com/introduction/git-handbook/), and the [Git Cheatsheet](https://education.github.com/git-cheat-sheet-education.pdf)!, and the [Version control concepts and best practices (By Michael Ernst)](https://homes.cs.washington.edu/~mernst/advice/version-control.html)
