@@ -1,2 +1,2 @@
 # git-tutorial
-What the hell is git?! This repo aims to give you a very brief &amp; cursory answer to that :)
+The heck is git?! This repo aims to give you a very brief & cursory answer to that burning question, while showing you why you should care about it 🙂
